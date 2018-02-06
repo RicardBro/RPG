@@ -8,10 +8,15 @@ public class jugador : MonoBehaviour {
     Animator anim;
     Rigidbody2D rb2d;
     Vector2 movimiento;
+
+    public GameObject initialMap;
+
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+
+        Camera.main.GetComponent<Seguimiento_Camara>().SetBound(initialMap);
 	}
 	
 	// Update is called once per frame

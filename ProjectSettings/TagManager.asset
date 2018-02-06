@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Jugador
   layers:
   - Default
   - TransparentFX
@@ -47,9 +48,9 @@ TagManager:
   - name: Detalles de fondo
     uniqueID: 732682549
     locked: 0
-  - name: Pueblos
-    uniqueID: 420619981
-    locked: 0
   - name: Personajes
     uniqueID: 1310366639
+    locked: 0
+  - name: Pueblos
+    uniqueID: 420619981
     locked: 0
